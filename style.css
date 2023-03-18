@@ -1,6 +1,6 @@
 body{
     background-color: white;
-    display: block;
+    margin: auto;
 }
 
 
@@ -32,52 +32,85 @@ a:link, a:visited{
 
 
 
-.img img{
-    width: 300px;
-    align-items: center;
-    padding-top: 200px;
+.logo-img{
     display: block;
-}
-.img{
-    margin-bottom: 0px;
-    padding-right: 200px;
-    margin-left: 330px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
 }
 .form{
-    margin-top: 5px;
-    padding-top: 0px;
-    margin-left: 290px;
-    
-}
-.form, input[type="text"] {
-    width: 400px;
-    height: 20px;
-    border-radius: 30px;
     display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:1px solid #dfe1e5;
+    border-radius: 24px
+}
+.btn{
+    display: block;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100%;
 }
 
-.btn{
-    margin-left: 350px;
-    padding: 50px;
-    margin-top: 10px;
+.btn, button{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid white;
+    text-align:center;
 }
+button{
+    display: inline;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 35px;
+    margin: 11px 4px;
+    font-family: arial,sans-serif;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
 
 .loc{
-    display: flex;
+    display: block;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
     float: left;
 }
 
 .loc, p{
     display: inline;
-    margin: 5px;;
+    margin: 5px;
+    font-weight: lighter;
 }
 .footer{
-    margin-top: 40px;
+    display: inline;
+    width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
 }
 .infoLeft, ul {
+    margin-top: 50px;
     float: left;
     list-style-type: none;
-    padding-left: 0%;
 }
 .infoLeft, li{
     float: right;
