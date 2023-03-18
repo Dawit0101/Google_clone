@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    display: block;
+}
+
+
+.left ul {
+    float: left;
+    list-style-type: none;
+}
+.left li{
+    float: right;
+}
+
+.right ul{
+    list-style-type: none;
+    float: right;
+}
+.right li{
+    float: left;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    display: block;
+    text-align: center;
+    width: 80px;
+    padding: 5px;
+}
+
+
+
+.img img{
+    width: 300px;
+    align-items: center;
+    padding-top: 200px;
+    display: block;
+}
+.img{
+    margin-bottom: 0px;
+    padding-right: 200px;
+    margin-left: 330px;
+}
+.form{
+    margin-top: 5px;
+    padding-top: 0px;
+    margin-left: 290px;
+    
+}
+.form, input[type="text"] {
+    width: 400px;
+    height: 20px;
+    border-radius: 30px;
+    display: block;
+}
+
+.btn{
+    margin-left: 350px;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.loc{
+    display: flex;
+    float: left;
+}
+
+.loc, p{
+    display: inline;
+    margin: 5px;;
+}
+.footer{
+    margin-top: 40px;
+}
+.infoLeft, ul {
+    float: left;
+    list-style-type: none;
+    padding-left: 0%;
+}
+.infoLeft, li{
+    float: right;
+}
+
+.infoRight, ul{
+    list-style-type: none;
+    float: right;
+    padding-right: 0%;
+}
+.infoRight, li{
+    float: left;
+}
